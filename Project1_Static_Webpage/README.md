@@ -1,8 +1,8 @@
-# Static Webpage
+# Project 1 - Static Webpage
 
-## Decode Labs Frontend Development Internship – Project 1
+## Decode Labs Frontend Development Internship
 
-This project was developed as Project 1 of my Decode Labs Frontend Development Internship. It is a responsive static webpage created using HTML and CSS.
+This project was developed as part of my Decode Labs Frontend Development Internship. The objective was to design and develop a responsive static webpage using HTML and CSS with a clean layout and proper structure.
 
 ## Features
 
