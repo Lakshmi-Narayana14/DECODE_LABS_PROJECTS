@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+}
+
+header{
+    background:#0d6efd;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-size:18px;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("https://picsum.photos/1200/600");
+    background-size:cover;
+    color:white;
+}
+
+.hero h1{
+    font-size:50px;
+}
+
+.hero p{
+    margin:20px 0;
+    font-size:20px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 30px;
+    background:#ff9800;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.btn:hover{
+    background:#e68900;
+}
+
+section{
+    padding:60px 80px;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.about p{
+    text-align:center;
+    max-width:800px;
+    margin:auto;
+}
+
+.cards{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    width:280px;
+    padding:25px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 5px 10px rgba(0,0,0,.1);
+}
+
+.images{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.images img{
+    width:300px;
+    border-radius:10px;
+}
+
+.contact{
+    text-align:center;
+}
+
+footer{
+    background:#0d6efd;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+
+header{
+    flex-direction:column;
+}
+
+nav{
+    margin-top:15px;
+}
+
+.hero h1{
+    font-size:35px;
+}
+
+section{
+    padding:40px 20px;
+}
+
+}
