@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Elements</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="background">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+<div class="container">
+
+    <h1>🚀 Decode labs| Interactive web Elements</h1>
+
+    <h3 id="greeting"></h3>
+
+    <p id="datetime"></p>
+
+    <p id="message">
+        Welcome to Decode Labs Project 3 🚀
+    </p>
+
+    <div class="buttons">
+
+        <button id="changeBtn">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+            Change Message
+        </button>
+
+        <button id="themeBtn">
+            <i class="fa-solid fa-moon"></i>
+            Dark Mode
+        </button>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Interactive Counter</h2>
+
+        <h1 id="count">0</h1>
+
+        <div class="counter-buttons">
+
+            <button id="decreaseBtn">-</button>
+
+            <button id="increaseBtn">+</button>
+
+            <button id="resetBtn">Reset</button>
+
+        </div>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Like Counter</h2>
+
+        <h3 id="likes">0 ❤️</h3>
+
+        <button id="likeBtn">
+
+            ❤️ Like
+
+        </button>
+
+    </div>
+
+    <div class="card">
+
+        <h2>About JavaScript</h2>
+
+        <p id="info" class="hide">
+
+            JavaScript brings web pages to life by adding interactivity, 
+            dynamic content updates, animations, and event handling using DOM.
+        </p>
+
+        <button id="showBtn">
+
+            Show / Hide
+
+        </button>
+
+    </div>
+
+</div>
+
+<div id="toast"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
